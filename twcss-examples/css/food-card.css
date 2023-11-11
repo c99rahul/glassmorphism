@@ -1,0 +1,9 @@
+body {
+  background: url(https://source.unsplash.com/EPwuZxdketc/2400x1823)
+    center/cover no-repeat fixed;
+  font: 1em/1.618 Inter, sans-serif;
+}
+
+h2 {
+  font-family: Playfair Display;
+}
