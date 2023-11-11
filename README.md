@@ -2,6 +2,8 @@
 
 A collection of examples showcasing the Glassmorphism UI concept implemented with CSS. For a detailed explanation and live demonstrations, [read the full article here](https://blog.logrocket.com/implement-glassmorphism-css/).
 
+![A card pattern demonstrating Glassmorphism UI design trend](project-thumb.jpg)
+
 ## Overview
 
 All these examples focus on the basics of Glassmorphism, providing UI implementations using both vanilla CSS and Tailwind CSS. 
