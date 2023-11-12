@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nesting in Glassmorphism</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/card-base.css" />
+    <link rel="stylesheet" href="css/card-1.css" />
+    <link rel="stylesheet" href="css/card-nesting.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h3>Parent</h3>
+        <p>Element with the maximum translucency and background blur.</p>
+        <div class="card">
+          <h3>Child</h3>
+          <p>Child element with lesser translucency and background blur.</p>
+          <div class="card">
+            <h3>Grand child</h3>
+            <p>
+              Child element with the least translucency and background blur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

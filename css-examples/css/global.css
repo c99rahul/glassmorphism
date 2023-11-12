@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Roboto+Mono:wght@400;700&display=swap");
+
+:root {
+  --body-font-face: Inter;
+
+  --card-border-width: 2px;
+  --card-blur: 1em;
+  --card-padding: 2em;
+  --card-radius: 1em;
+  --card-width: 540px;
+  --card-height: 300px;
+
+  font-size: 130%;
+}
+
 *,
 *:before,
 *:after {
@@ -12,15 +27,22 @@ p + p {
   margin-top: 1.5em;
 }
 
+h1,
+h2,
+h3 {
+  margin: 0 0 1rem;
+}
+
 body {
-  font: 1em/160% Inter, sans-serif;
+  font: 1em/160% var(--body-font-face), sans-serif;
   margin: 0;
+  background: var(--body-bg-img) center / cover no-repeat fixed;
+  color: var(--card-text-color-pri);
 }
 
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
   min-height: 100vh;
   padding: 2em;
 }

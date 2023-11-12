@@ -1,0 +1,17 @@
+:root {
+  --body-bg-img: url(https://source.unsplash.com/zFaSM1hz02c/2400x1823);
+
+  --card-border-width: 1px;
+  --card-radius: 0.5em;
+
+  font-size: 110%;
+}
+
+.card {
+  display: block;
+  min-height: auto;
+}
+
+.card .card {
+  margin-top: 1.5em;
+}

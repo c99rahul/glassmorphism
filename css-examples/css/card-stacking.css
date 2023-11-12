@@ -48,7 +48,7 @@
 }
 
 .card,
-.card.active {
+.card.is-active {
   z-index: 9500;
   background: hsl(0 0% 100% / 45%);
   backdrop-filter: blur(0.25em);

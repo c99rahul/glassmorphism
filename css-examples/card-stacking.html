@@ -3,26 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Stacking in Glassmorphism</title>
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/card-base.css" />
     <link rel="stylesheet" href="css/card-1.css" />
-    <link rel="stylesheet" href="css/nesting.css" />
+    <link rel="stylesheet" href="css/card-stacking.css" />
   </head>
   <body>
     <div class="card-stack">
       <div class="card">
-        <p>Card #1</p>
+        <h3>Card #1</h3>
         <p class="card-footer">Click/tap other cards to select.</p>
       </div>
 
       <div class="card">
-        <p>Card #2</p>
+        <h3>Card #2</h3>
         <p class="card-footer">Click/tap other cards to select.</p>
       </div>
 
       <div class="card">
-        <p>Card #3</p>
+        <h3>Card #3</h3>
         <p class="card-footer">Click/tap other cards to select.</p>
       </div>
     </div>
@@ -34,9 +34,9 @@
       cards.forEach((card) => {
         card.addEventListener("click", (e) => {
           cards.forEach((card) => {
-            card.classList.remove("active");
+            card.classList.remove("is-active");
           });
-          card.classList.add("active");
+          card.classList.add("is-active");
         });
       });
     }
