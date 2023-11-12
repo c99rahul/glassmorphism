@@ -2,7 +2,7 @@
 
 A collection of examples showcasing the Glassmorphism UI concept implemented with CSS. For a detailed explanation and live demonstrations, [read the full article here](//blog.logrocket.com/implement-glassmorphism-css/).
 
-![A card pattern demonstrating Glassmorphism UI design trend](//github.com/c99rahul/glassmorphism/assets/70071346/65d5cfd6-11da-4a9d-ab3c-86dac21d3aaf)
+![A card pattern demonstrating Glassmorphism UI design trend](https://github.com/c99rahul/glassmorphism/assets/70071346/65d5cfd6-11da-4a9d-ab3c-86dac21d3aaf)
 
 ## Overview
 
