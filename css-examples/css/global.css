@@ -46,3 +46,25 @@ body {
   min-height: 100vh;
   padding: 2em;
 }
+
+.credits {
+  margin-top: 2.5em;
+  font-size: 65%;
+  line-height: 120%;
+  text-align: center;
+  background-color: var(--credits-bg-color);
+  padding: 1em;
+  border-radius: 0.25em;
+}
+
+.credits a {
+  color: var(--credits-text-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .credits {
+    position: fixed;
+    right: 1.5em;
+    bottom: 1.5em;
+  }
+}

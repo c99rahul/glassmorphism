@@ -9,6 +9,9 @@
   --card-text-color-sec: hsl(var(--card-hue) 25% 30%);
   --card-shadow: hsl(var(--card-hue) 0% 0% / 25%);
   --card-border-color: hsl(var(--card-hue) 0% 100% / 35%);
+
+  --credits-text-color: hsl(var(--card-hue) 25% 25%);
+  --credits-bg-color: hsl(var(--card-hue) 10% 90% / 30%);
 }
 
 .card {

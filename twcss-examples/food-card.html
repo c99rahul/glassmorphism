@@ -4,15 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food Card</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="css/food-card.css">
+    <link rel="stylesheet" href="css/food-card.css" />
   </head>
   <body>
     <div
-      class="absolute top-0 left-0 w-full z-50 h-screen flex justify-center items-center p-4 md:p-6 lg:p-8"
+      class="w-full h-screen flex justify-center items-center p-4 md:p-6 lg:p-8"
     >
       <div
-        class="max-w-lg bg-gradient-to-b from-white/60 to-white/30 text-[#1c0708] backdrop-blur-[.5em] border-[1px] border-solid border-white border-opacity-10 rounded-2xl shadow-black/50 overflow-hidden shadow-2xl hover:-translate-y-1 hover:shadow-black/75 hover:backdrop-blur-[1em] transition"
+        class="max-w-lg bg-gradient-to-r from-white/90 to-white/30 text-[#1c0708] backdrop-blur-[.5em] outline-2 outline outline-white/50 rounded-2xl shadow-black/50 overflow-hidden shadow-2xl hover:-translate-y-1 hover:shadow-black/75 hover:backdrop-blur-[1em] transition"
       >
         <div class="grid place-items-center grid-cols-6 gap-2">
           <div class="col-span-3 p-8">
@@ -24,7 +28,7 @@
             </p>
             <a
               href="#"
-              class="mt-6 py-3 px-5 inline-flex bg-[#e84118] hover:bg-[#c23616] transition-colors text-gray-200 font-bold rounded-full text-sm"
+              class="mt-6 py-3 px-5 inline-flex bg-[#c6433a] hover:bg-[#e84118] transition-colors text-gray-200 font-bold rounded-full text-sm"
               >Starts $1.99</a
             >
           </div>
@@ -36,6 +40,44 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <div
+      class="p-4 bg-red-800/70 text-red-300 text-xs rounded-md lg:fixed md:fixed z-[5000] lg:bottom-[1.5em] md:bottom-[1.5em] lg:right-[1.5em] md:right-[1.5em] max-w-[300px] mx-auto relative text-sm text-center underline"
+    >
+      <a
+        href="//github.com/c99rahul/glassmorphism/"
+        target="_blank"
+        rel="external noopener"
+        >github/c99rahul</a
+      ><br />
+      <a
+        href="//fonts.google.com/specimen/Inter"
+        target="_blank"
+        rel="external noopener"
+        >Playfair Display</a
+      >
+      &amp;
+      <a
+        href="https://fonts.google.com/icons"
+        target="_blank"
+        rel="external noopener"
+        >Inter</a
+      >
+      fonts by Google<br />
+      <a
+        href="//unsplash.com/photos/red-tomato-on-brown-woven-basket-tYJfQ1sSMbY"
+        target="_blank"
+        rel="external noopener"
+        >Background pic by Praveen kumar Mathivanan</a
+      >
+      <a
+        href="//www.seekpng.com/ipng/u2w7i1i1a9w7r5q8_bbq-chicken-plate-barbecue-chicken/"
+        target="_blank"
+        rel="external noopener"
+      >
+        Food plate PNG graphic by SeekPNG</a
+      >
     </div>
   </body>
 </html>
