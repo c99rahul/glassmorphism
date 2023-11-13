@@ -20,5 +20,6 @@
 
 .card-footer {
   font-size: 65%;
+  line-height: 1;
   color: var(--card-text-color-sec);
 }
